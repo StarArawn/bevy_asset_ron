@@ -26,7 +26,7 @@ struct CubesAsset {
 }
 
 fn main() {
-    App::build()
+    App::new()
         .insert_resource(Msaa { samples: 4 })
         .add_plugins(DefaultPlugins)
         // load camera settings from "*.camera" files
